@@ -1,5 +1,3 @@
-{
-  "questions":
 [
   {
     "questionType": "true_false",
@@ -14,4 +12,4 @@
     "answerFieldId": "answer_to_question"
   }
 ]
-}
+
