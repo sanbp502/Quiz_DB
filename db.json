@@ -1,17 +1,144 @@
 {
-  "questions" :
-[
-  {
-    "questionType": "true_false",
-    "questionText": "The earth is round",
-    "correctAnswer": "true",
-    "options": ["true", "false"]
-  },
-  {
-    "questionType": "text_input",
-    "questionText": "What is the value of the expression 1+1",
-    "correctAnswer": "2",
-    "answerFieldId": "answer_to_question"
-  }
-]
+  "Start": [
+    { "MC": [
+      { "id": 0, "Question": "What is the output of the following code? \n\nprint(' '.join(['Hello', 'world']))", "Answer": 1,
+       "Choices": [
+         { "id": 0, "Answer": "Hello" },
+         { "id": 1, "Answer": "Hello world" },
+         { "id": 2, "Answer": "world Hello" },
+         { "id": 3, "Answer": "Syntax error" }
+       ], "Note": "The 'join' method concatenates the strings in the list with the specified separator, which is a space in this case."},
+      
+      { "id": 1, "Question": "What is the difference between '==' and 'is' operators in Python?", "Answer": 2,
+       "Choices": [
+         { "id": 0, "Answer": "'==' compares the values of the operands, while 'is' compares their identities" },
+         { "id": 1, "Answer": "'==' compares the memory addresses of the operands, while 'is' compares their values" },
+         { "id": 2, "Answer": "'==' compares the values of the operands, while 'is' compares their identities in memory" },
+         { "id": 3, "Answer": "'==' and 'is' operators are the same" }
+       ], "Note": "The '==' operator checks if the values of the operands are equal, while the 'is' operator checks if the operands refer to the same object in memory."},
+      
+      { "id": 2, "Question": "What does the 'yield' keyword do in Python?", "Answer": 3,
+       "Choices": [
+         { "id": 0, "Answer": "It defines a new function" },
+         { "id": 1, "Answer": "It returns a value from a function" },
+         { "id": 2, "Answer": "It raises an exception" },
+         { "id": 3, "Answer": "It generates a value from a function and suspends the function's execution state" }
+       ], "Note": "The 'yield' keyword is used in Python generators to produce a series of values, while maintaining the state of the generator function between each value generated."},
+      
+      { "id": 3, "Question": "What is the output of the following code? \n\nfor i in range(1, 5):\n  if i == 2:\n    continue\n  print(i)", "Answer": 0,
+       "Choices": [
+         { "id": 0, "Answer": "1 \n3 \n4" },
+         { "id": 1, "Answer": "1 \n2 \n3 \n4" },
+         { "id": 2, "Answer": "2" },
+         { "id": 3, "Answer": "1 \n4" }
+       ], "Note": "The 'continue' keyword skips the remaining statements in the current iteration of the loop and proceeds to the next iteration."},
+      
+      { "id": 4, "Question": "What is the difference between an abstract class and an interface in Java?",
+  "Answer": 2,
+  "Choices": [
+    { "id": 0, "Answer": "An abstract class can have constructors, while an interface cannot" },
+    { "id": 1, "Answer": "An interface can have static methods, while an abstract class cannot" },
+    { "id": 2, "Answer": "An abstract class can have method implementations, while an interface cannot" },
+    { "id": 3, "Answer": "An interface can have instance variables, while an abstract class cannot" }
+  ], 
+  "Note": "An abstract class can provide some method implementations and can have constructors. An interface can only declare method signatures and constants. However, a class can implement multiple interfaces, but it can only extend one abstract class." },
+
+{ "id": 5, "Question": "What is a stack overflow error?",
+  "Answer": 1,
+  "Choices": [
+    { "id": 0, "Answer": "An error that occurs when a method returns a value that does not match the expected type" },
+    { "id": 1, "Answer": "An error that occurs when the call stack overflows due to too many method calls" },
+    { "id": 2, "Answer": "An error that occurs when a null reference is used in a method" },
+    { "id": 3, "Answer": "An error that occurs when the program runs out of memory" }
+  ], 
+  "Note": "A stack overflow error occurs when the call stack becomes too large due to too many method calls. This can happen when a method calls itself recursively without a proper base case, causing an infinite loop." },
+
+{ "id": 6, "Question": "What is the difference between a variable declared with the 'var' keyword and one declared with a specific type in C#?",
+  "Answer": 0,
+  "Choices": [
+    { "id": 0, "Answer": "A variable declared with 'var' is implicitly typed, while one declared with a specific type is explicitly typed" },
+    { "id": 1, "Answer": "A variable declared with 'var' can be used with any type, while one declared with a specific type is restricted to that type" },
+    { "id": 2, "Answer": "A variable declared with 'var' cannot be used as a parameter in a method, while one declared with a specific type can" },
+    { "id": 3, "Answer": "There is no difference between the two types of variable declaration in C#" }
+  ], 
+  "Note": "In C#, a variable declared with the 'var' keyword is implicitly typed, meaning that its type is inferred from the expression used to initialize it. In contrast, a variable declared with a specific type is explicitly typed, meaning that its type is explicitly specified. The 'var' keyword can only be used for local variables, and cannot be used for method parameters, class fields, or properties." },
+      
+ { "id": 7, "Question": "Which of the folliwng programming languages is the most low-level?",
+  "Answer": 1,
+  "Choices": [
+    { "id": 0, "Answer": "Python" },
+    { "id": 1, "Answer": "Assembly" },
+    { "id": 2, "Answer": "Java" },
+    { "id": 3, "Answer": "C++" }
+  ], 
+  "Note": "Assembly is very close to the machine and can be used to run the machine's kernel. This closeness with the computer's functionality makes it low-level" },
+    
+    { "Image": [
+      { "id": 0, "Question": "placeholder", "Image": "Image1.png", "Answer": 3,
+        "Choices": [
+         { "id": 0, "Answer": "placeholder" },
+         { "id": 1, "Answer": "placeholder" },
+         { "id": 2, "Answer": "placeholder" },
+         { "id": 3, "Answer": "placeholder" }
+       ], "Note": "placeholder"},
+      { "id": 1, "Question": "placeholder", "Image": "Image2.png", "Answer": 0,
+        "Choices": [
+         { "id": 0, "Answer": "placeholder" },
+         { "id": 1, "Answer": "placeholder" },
+         { "id": 2, "Answer": "placeholder" },
+         { "id": 3, "Answer": "placeholder" }
+       ], "Note": "placeholder"},
+      { "id": 2, "Question": "placeholder", "Image": "Image3.png", "Answer": 0,
+        "Choices": [
+         { "id": 0, "Answer": "placeholder" },
+         { "id": 1, "Answer": "placeholder" },
+         { "id": 2, "Answer": "placeholder" },
+         { "id": 3, "Answer": "placeholder" }
+       ], "Note": "placeholder"},
+      { "id": 3, "Question": "placeholder", "Image": "Image4.png", "Answer": 2,
+        "Choices": [
+         { "id": 0, "Answer": "placeholder" },
+         { "id": 1, "Answer": "placeholder" },
+         { "id": 2, "Answer": "placeholder" },
+         { "id": 3, "Answer": "placeholder" }
+       ], "Note": "placeholder"}
+      ]
+    },
+
+    { "TF": [
+      { "id": 0, "Question": "placeholder", "Answer": 0,
+      "Note": "placeholder"},
+      { "id": 1, "Question": "placeholder", "Answer": 1, 
+      "Note": "placeholder"},
+      { "id": 2, "Question": "placeholder", "Answer": 0,
+      "Note": "placeholder"},
+      { "id": 3, "Question": "placeholder", "Answer": 0,
+      "Note": "placeholder"},
+      { "id": 4, "Question": "placeholder", "Answer": 1,
+      "Note": "placeholder"}
+      ]
+    },
+
+    { "Lists": [
+      { "id": 0, "Frag1": "placeholder ", "Frag2": " placeholder", "Answer": 0,
+        "Choices": [
+         { "id": 0, "Answer": "placeholder" },
+         { "id": 1, "Answer": "placeholder" }
+       ], "Note": "placeholder"},
+      { "id": 1, "Frag1": "placeholder", "Frag2": "placeholder", "Answer": 3,
+        "Choices": [
+         { "id": 0, "Answer": "placeholder" },
+         { "id": 1, "Answer": "placeholder" },
+         { "id": 2, "Answer": "placeholder" },
+         { "id": 3, "Answer": "placeholder" }
+       ], "Note": "placeholder"},
+      { "id": 2, "Frag1": "placeholder", "Frag2": " placeholder", "Answer": 1,
+        "Choices": [
+         { "id": 0, "Answer": "placeholder" },
+         { "id": 1, "Answer": "placeholder" },
+         { "id": 2, "Answer": "placeholder" }
+       ], "Note": "placeholder"}
+      ]
+    }
+  ]
 }
