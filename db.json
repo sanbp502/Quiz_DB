@@ -71,7 +71,9 @@
     { "id": 2, "Answer": "Java" },
     { "id": 3, "Answer": "C++" }
   ], 
-  "Note": "Assembly is very close to the machine and can be used to run the machine's kernel. This closeness with the computer's functionality makes it low-level" },
+  "Note": "Assembly is very close to the machine and can be used to run the machine's kernel. This closeness with the computer's functionality makes it low-level" }
+   ]
+    },
     
     { "Image": [
       { "id": 0, "Question": "placeholder", "Image": "Image1.png", "Answer": 3,
