@@ -76,70 +76,70 @@
     },
     
     { "Image": [
-      { "id": 0, "Question": "placeholder", "Image": "Image1.png", "Answer": 3,
+      { "id": 0, "Question": "Which language is this?", "Image": "Image1.jpg", "Answer": 3,
         "Choices": [
-         { "id": 0, "Answer": "placeholder" },
-         { "id": 1, "Answer": "placeholder" },
-         { "id": 2, "Answer": "placeholder" },
-         { "id": 3, "Answer": "placeholder" }
-       ], "Note": "placeholder"},
-      { "id": 1, "Question": "placeholder", "Image": "Image2.png", "Answer": 0,
+         { "id": 0, "Answer": "C#" },
+         { "id": 1, "Answer": "C++" },
+         { "id": 2, "Answer": "Java" },
+         { "id": 3, "Answer": "Python" }
+       ], "Note": "Python has a blue and yellow snake as a symbol"},
+      { "id": 1, "Question": "What language is this?", "Image": "Image2.jpg", "Answer": 0,
         "Choices": [
-         { "id": 0, "Answer": "placeholder" },
-         { "id": 1, "Answer": "placeholder" },
-         { "id": 2, "Answer": "placeholder" },
-         { "id": 3, "Answer": "placeholder" }
-       ], "Note": "placeholder"},
-      { "id": 2, "Question": "placeholder", "Image": "Image3.png", "Answer": 0,
+         { "id": 0, "Answer": "Java" },
+         { "id": 1, "Answer": "Python" },
+         { "id": 2, "Answer": "C++" },
+         { "id": 3, "Answer": "C#" }
+       ], "Note": "Java's symbol is a cup of coffee"},
+      { "id": 2, "Question": "Which code interpreter is this?", "Image": "Image3.jpg", "Answer": 0,
         "Choices": [
-         { "id": 0, "Answer": "placeholder" },
-         { "id": 1, "Answer": "placeholder" },
-         { "id": 2, "Answer": "placeholder" },
-         { "id": 3, "Answer": "placeholder" }
-       ], "Note": "placeholder"},
-      { "id": 3, "Question": "placeholder", "Image": "Image4.png", "Answer": 2,
+         { "id": 0, "Answer": "Visual Studio Code" },
+         { "id": 1, "Answer": "Eclipse" },
+         { "id": 2, "Answer": "PyCharm" },
+         { "id": 3, "Answer": "IntelliJ" }
+       ], "Note": "VSCode's logo looks like a blue fish"},
+      { "id": 3, "Question": "Which operating system is this?", "Image": "Image4.jpg", "Answer": 2,
         "Choices": [
-         { "id": 0, "Answer": "placeholder" },
-         { "id": 1, "Answer": "placeholder" },
-         { "id": 2, "Answer": "placeholder" },
-         { "id": 3, "Answer": "placeholder" }
+         { "id": 0, "Answer": "Windows" },
+         { "id": 1, "Answer": "macOS" },
+         { "id": 2, "Answer": "Linux" },
+         { "id": 3, "Answer": "Unix" }
        ], "Note": "placeholder"}
       ]
     },
 
     { "TF": [
-      { "id": 0, "Question": "placeholder", "Answer": 0,
-      "Note": "placeholder"},
-      { "id": 1, "Question": "placeholder", "Answer": 1, 
-      "Note": "placeholder"},
-      { "id": 2, "Question": "placeholder", "Answer": 0,
-      "Note": "placeholder"},
-      { "id": 3, "Question": "placeholder", "Answer": 0,
-      "Note": "placeholder"},
-      { "id": 4, "Question": "placeholder", "Answer": 1,
-      "Note": "placeholder"}
+      { "id": 0, "Question": "Python is a scripting language", "Answer": 0,
+      "Note": "Python's code is interpreted rather than compiled"},
+      { "id": 1, "Question": "The keyword 'final' in Java can be used to declare a variable that can be reassigned later.", "Answer": 1, 
+      "Note": "The 'final' keyword in Java is used to declare a variable whose value cannot be changed once it is initialized."},
+      { "id": 2, "Question": "JavaScript is a compiled language.", "Answer": 1,
+      "Note": "JavaScript is an interpreted language, meaning that it is executed on the fly without a compilation step."},
+      { "id": 3, "Question": "CSS stands for 'Cascading Style Sheets", "Answer": 0,
+      "Note": "CSS stands for Cascading Style Sheets. It's a style sheet language used for describing the look and formatting of a document written in markup language."},
+      { "id": 4, "Question": "In Java, the '==' operator compares the values of two objects", "Answer": 1,
+      "Note": "The '==' operator compares the reference equality of two objects in Java. To compare the values, you should use the 'equals' method."}
       ]
     },
 
     { "Lists": [
-      { "id": 0, "Frag1": "placeholder ", "Frag2": " placeholder", "Answer": 0,
+      { "id": 0, "Frag1": "A ", "Frag2": " is a named memory location in a program that holds a value or data", "Answer": 0,
         "Choices": [
-         { "id": 0, "Answer": "placeholder" },
-         { "id": 1, "Answer": "placeholder" }
-       ], "Note": "placeholder"},
-      { "id": 1, "Frag1": "placeholder", "Frag2": "placeholder", "Answer": 3,
+         { "id": 0, "Answer": "variable" },
+         { "id": 1, "Answer": "function" }
+       ], "Note": "A function is a block of organized, reusable code that performs a specific task."},
+      { "id": 1, "Frag1": "The language ", "Frag2": " is used the most for web applications", "Answer": 3,
         "Choices": [
-         { "id": 0, "Answer": "placeholder" },
-         { "id": 1, "Answer": "placeholder" },
-         { "id": 2, "Answer": "placeholder" },
-         { "id": 3, "Answer": "placeholder" }
-       ], "Note": "placeholder"},
-      { "id": 2, "Frag1": "placeholder", "Frag2": " placeholder", "Answer": 1,
+         { "id": 0, "Answer": "Python" },
+         { "id": 1, "Answer": "Java" },
+         { "id": 2, "Answer": "C++" },
+         { "id": 3, "Answer": "JavaScript" }
+       ], "Note": "While other languages are viable, javascript remains the industry standard, with the exception of upcoming TypeScript"},
+      { "id": 2, "Frag1": "The language", "Frag2": " is often used in videogame development", "Answer": 1,
         "Choices": [
-         { "id": 0, "Answer": "placeholder" },
-         { "id": 1, "Answer": "placeholder" },
-         { "id": 2, "Answer": "placeholder" }
-       ], "Note": "placeholder"}
+         { "id": 0, "Answer": "Java" },
+         { "id": 1, "Answer": "C++" },
+         { "id": 2, "Answer": "Prolog" }
+       ], "Note": "C++ remains industry standard due to its efficiency when applied to videogames"}
       ]
     }
   ]
